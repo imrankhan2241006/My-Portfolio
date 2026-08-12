@@ -255,6 +255,7 @@ footer p {
     margin: 20px auto;
 }
 
+
 .social-links {
     margin-top: 15px;
 }
@@ -262,4 +263,8 @@ footer p {
 .social-links a {
     text-decoration: none;
     font-size: 28px;
+    color: white;
+}
+.social-links a:hover {
+    color: #60a5fa;
 }
