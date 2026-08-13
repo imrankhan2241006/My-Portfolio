@@ -26,9 +26,10 @@ nav {
 }
 
 nav a {
+    display: inline-block;
     color: white;
     text-decoration: none;
-    margin: 20px;
+    margin: 8px 6px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -188,8 +189,10 @@ a[href$=".pdf"]:hover {
 }
 
 .contact-form {
+    width: 100%;
     max-width: 500px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .form-group {
@@ -265,6 +268,35 @@ footer p {
     font-size: 28px;
     color: white;
 }
+
 .social-links a:hover {
     color: #60a5fa;
+}
+
+@media (max-width: 600px) {
+    .project-card {
+        width: 100%;
+        max-width: 300px;
+        box-sizing: border-box;
+    }
+
+    nav a {
+        margin: 8px;
+        font-size: 16px;
+    }
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
 }
